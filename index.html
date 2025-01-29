@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay's Portfolio</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Animate.css for smooth animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="ak-removebg-preview.png" alt="Akshay's Logo" class="logo-img">
+                <span class="logo-text">AKSHAY</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-btn">🌙</button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section home-section">
+            <div class="container">
+                <div class="home-content">
+                    <h1 class="animate__animated animate__fadeInLeft">Hi, I'm <span class="highlight">Akshay</span></h1>
+                    <p class="animate__animated animate__fadeInLeft">A passionate web developer and designer creating modern, user-friendly websites.</p>
+                    <a href="#about" class="btn animate__animated animate__fadeInLeft">Learn More</a>
+                </div>
+                <div class="home-image animate__animated animate__fadeInRight">
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h1 class="section-title animate__animated animate__fadeInUp">About Me</h1>
+                <div class="about-content">
+                    <div class="about-text animate__animated animate__fadeInLeft">
+                        <p>Hello! I'm Akshay, a passionate web developer with a knack for creating visually appealing and user-friendly websites. I love blending creativity with technology to deliver top-notch web experiences.</p>
+                        <p>With several years of experience in the industry, I've worked on numerous projects that showcase my skills in web development, design, and SEO. I'm always eager to learn and adapt to new trends and technologies.</p>
+                        
+                        <button class="btn"><a href="resume.pdf" target="_blank" style="color: #fff; text-decoration: none;">View My Resume</a></button>
+
+                    </div>
+                    <div class="about-image animate__animated animate__fadeInRight">
+                        <img src="ak-removebg-preview.png" alt="Akshay" class="profile-circle">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <h1 class="section-title animate__animated animate__fadeInUp">Services</h1>
+                <div class="service-cards">
+                    <div class="service-card animate__animated animate__fadeInUp">
+                        <h2>Web Development</h2>
+                        <p>Building modern, responsive, and user-friendly websites.</p>
+                    </div>
+                    <div class="service-card animate__animated animate__fadeInUp">
+                        <h2>Web Design</h2>
+                        <p>Creating visually stunning and intuitive designs.</p>
+                    </div>
+                    <div class="service-card animate__animated animate__fadeInUp">
+                        <h2>Kotlin Development</h2>
+                        <p>Developing robust Android applications using Kotlin.</p>
+                    </div>
+                    <div class="service-card animate__animated animate__fadeInUp">
+                        <h2>Digital Marketing</h2>
+                        <p>Driving traffic and engagement through effective strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <h1 class="section-title animate__animated animate__fadeInUp">Projects</h1>
+                <div class="project-grid">
+                    <div class="project-card animate__animated animate__fadeInUp">
+                        <h2>Personal Portfolio</h2>
+                        <p>A modern portfolio website showcasing my skills and projects.</p>
+                    </div>
+                    <div class="project-card animate__animated animate__fadeInUp">
+                        <h2>To-Do List App</h2>
+                        <p>An Android app for managing tasks efficiently.</p>
+                    </div>
+                    <div class="project-card animate__animated animate__fadeInUp">
+                        <h2>Kotlin Calculator</h2>
+                        <p>A command-line calculator built using Kotlin.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h1 class="section-title animate__animated animate__fadeInUp">Contact Me</h1>
+                <form class="contact-form animate__animated animate__fadeInUp">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Akshay's Portfolio. All rights reserved.</p>
+        </div>
+        <button id="back-to-top" class="back-to-top-btn">↑</button>
+    </footer>
+
+    <!-- GSAP for Advanced Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
