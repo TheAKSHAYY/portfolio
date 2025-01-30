@@ -37,7 +37,7 @@ body {
   height: 60px;
   margin-right: 10px;
   border-radius: 70%;
-  border-color: #ff4c4c;
+  border-color: #000000;
   
 }
 
@@ -101,13 +101,15 @@ body {
 
 .about-text {
   flex: 1;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
 .about-image img {
   width: 380px;
   height: 480px;
   border-radius: 50%;
-  background-color: #ff4c4c;
+  background-color: #070707;
   border-style: solid;
   border-color: rgb(19, 21, 17);
   border-width: 2px;
